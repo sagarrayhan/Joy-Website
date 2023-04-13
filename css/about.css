@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    background-image: url('about.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.about-info{
+    width: 100%;
+    height: 100vh;
+    background: rgba(7, 4, 44, 0.6);
+    color: whitesmoke;
+    position: relative;
+    
+}
+
+.about-info-detail{
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+.about-info-detail p{
+    margin-top: 40px;
+}
+
+
+
