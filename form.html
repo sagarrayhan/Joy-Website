@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <div class="form_container">
+      <h1>Please Provide following Informations</h1>
+      <form action="https://formspree.io/f/xknapqle" method="POST">
+        <input type="text" name="user-name" id="name" placeholder="Enter Your name" />
+        <input
+          name="Email"
+          id="email"
+          type="email"
+          placeholder="Enter Your Email (required)"
+          required
+        />
+        <input name="transaction"
+          type="text" id="transationId"
+          placeholder="If completed payment enter transaction ID"
+        />
+        <textarea
+          name="message"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Your Message (Optional)"
+          class="text"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
